@@ -14,8 +14,10 @@ import { createApp } from "vue";
 
 const app = createApp({});
 
-import ExampleComponent from "./components/ExampleComponent.vue";
-app.component("example-component", ExampleComponent);
+import dashboard from "./pages/dashboard.vue";
+import survey from "./pages/survey.vue";
+app.component("dashboard", dashboard);
+app.component("survey", survey);
 
 /**
  * The following block of code may be used to automatically register your

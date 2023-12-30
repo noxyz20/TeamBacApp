@@ -1,8 +1,11 @@
-// Fonts
-@import url('https://fonts.bunny.net/css?family=Nunito');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-// Variables
-@import 'variables';
+@import url("clash-display.scss");
 
-// Bootstrap
-@import 'bootstrap/scss/bootstrap';
+body {
+    background-image: url("https://fastly.picsum.photos/id/944/1920/1080.jpg?hmac=idwoFuSfF0tFozlsOEYTM372Y5p5Pe48q7yBKigQ18E");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
